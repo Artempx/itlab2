@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <style>
+        h1:hover {
+            color:burlywood;
+            font-family: cursive;
+        }
+        .fixed-box {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: coral;
+      padding: 10px 20px;
+      color: white;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Спойлер</title>
+    <link rel="stylesheet" href="Lab2.css">
+</head>
+<body>
+    <div class="fixed-box">Зафіксований елемент</div>
+    <h1>Привіт</h1>
+    <div>
+        <img src="image.jpg" alt="Example image" style="float:right; margin: 10px 20px 10px 0; max-width: 200px;">
+        
+        <p>Curabitur tristique turpis nec sapien gravida, non fermentum turpis fermentum. Duis sit amet ultricies erat. Ut sed libero nec eros tincidunt tincidunt. Vivamus id lorem vel urna efficitur interdum.</p>
+      </div>
+    <div class="accordion">
+        <label for="section1" class="accordion-header">Розділ 1</label>
+        <input type="checkbox" id="section1" class="accordion-toggle">
+        <div class="accordion-content">
+            <p>Тут знаходиться вміст розділу 1.</p>
+        </div>
+        
+        <label for="section2" class="accordion-header">Розділ 2</label>
+        <input type="checkbox" id="section2" class="accordion-toggle">
+        <div class="accordion-content">
+            <p>Тут знаходиться вміст розділу 2.</p>
+        </div>
+        
+        <label for="section3" class="accordion-header">Розділ 3</label>
+        <input type="checkbox" id="section3" class="accordion-toggle">
+        <div class="accordion-content">
+            <img src="s.jpg">
+        </div>
+    </div>
+
+</body>
+</html>
